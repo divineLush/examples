@@ -1,0 +1,77 @@
+p {
+    color: green;
+    background: #1f1f28;
+    margin: 10px;
+    padding: 20px 10px 30px 40px;
+    border: 12px solid pink;
+}
+
+h1 {
+    color: yellow;
+}
+
+span {
+    color: red;
+    display: block;
+}
+
+.title {
+    color: red;
+    margin: 20px;
+}
+
+#title {
+    color: green;
+}
+
+a[href='abc'] {
+    color: pink;
+}
+
+a[href^='abc'] {
+    color: olive;
+}
+
+a[href$='def'] {
+    color: forestgreen;
+}
+
+.wrapper > .text {
+    color: crimson;
+    background: transparent;
+    border: 0;
+}
+
+.wrapper .text {
+    color: indigo;
+    background: transparent;
+    border: 0;
+}
+
+.next-orange + li {
+    color: orange;
+}
+
+.next-plum ~ li {
+    color: plum;
+}
+
+li:hover {
+   background: black;
+}
+
+li:first-child {
+   margin-bottom: 20px;
+}
+
+li:last-child {
+   margin-top: 20px;
+}
+
+.tag {
+   display: inline-block;
+}
+
+.tag:not(:last-child) {
+   margin-right: 10px;
+}
